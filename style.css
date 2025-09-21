@@ -1,0 +1,17 @@
+body {
+    /* Используем переменные цвета из Telegram для адаптации */
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 320px;
+}
